@@ -1,0 +1,10 @@
+prefix=/home/runner/work/pspdev/pspdev/pspdev/psp
+libdir=/home/runner/work/pspdev/pspdev/pspdev/psp/lib
+includedir=/home/runner/work/pspdev/pspdev/pspdev/psp/include
+ 
+Name: zzipwrap
+Version: 0.13.38
+Description: Callback Wrappers for ZZipLib
+Requires: zziplib
+Libs: -L${libdir} -lzzipwrap
+Cflags: -I${includedir}
